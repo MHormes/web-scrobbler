@@ -26,8 +26,8 @@ export default <ConnectorMeta[]>[
 	},
 	{
     	label: 'NPO Radio 2',
-    	matches: ['://www.nporadio2.nl/', '*://www.nporadio2.nl/live*', '*://www.nporadio2.nl/online-radio-luisteren*'],
-    	js: 'connectors/npo-radio2.ts',
+    	matches: ['*://www.nporadio2.nl/*', '*://nporadio2.nl/*'],
+    	js: 'npo-radio2.js',
 		id: 'nporadio2'
 	},
 	{
