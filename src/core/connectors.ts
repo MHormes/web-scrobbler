@@ -25,10 +25,10 @@ export default <ConnectorMeta[]>[
 		usesBlocklist: true,
 	},
 	{
-    	label: 'NPO Radio 2',
-    	matches: ['*://www.nporadio2.nl/*', '*://nporadio2.nl/*'],
-    	js: 'npo-radio2.js',
-		id: 'nporadio2'
+		label: 'NPO Radio 2',
+		matches: ['*://www.nporadio2.nl/*', '*://nporadio2.nl/*'],
+		js: 'npo-radio2.js',
+		id: 'nporadio2',
 	},
 	{
 		label: 'MySpace',
